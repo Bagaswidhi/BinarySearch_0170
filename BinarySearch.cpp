@@ -115,4 +115,5 @@ int main()
 {
     input();
     bubble_SortArray();
+    display();
 }
