@@ -53,3 +53,21 @@ void bubble_SortArray()
         pass++; // Step 4
     } while (pass <= n - 1); // Step 5
 }
+
+void display()
+{
+    cout << endl;
+    cout << "=================================" << endl;
+    cout << "Element Array setelah diurutkan (Asc) " << endl;
+    cout << "=================================" << endl;
+    cout << endl;
+    for (int j = 0; j < n; j++)
+    {
+        cout << arr[j];
+        if (j < n - 1)
+        {
+            cout << " --> ";
+        }
+    }
+}
+
